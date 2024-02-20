@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-oezw
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/pmacik-testing/tkrw-pr712-0075-0069-tenant/tkrw-pr712-0075-0069-app/devfile-sample-oezw@sha256:3f446e9264f4ba2aca2dc3e31cd886838b1baeaef1f35333ffb25d260e214055
         name: my-nodejs
         ports:
         - containerPort: 3001
